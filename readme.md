@@ -128,7 +128,6 @@ pdf_processor_v2/
 │   │   ├── file_utils.py
 │   │   └── logging_utils.py
 │   ├── main.py
-│   └── cli.py
 ├── config.json
 ├── requirements.txt
 └── README.md

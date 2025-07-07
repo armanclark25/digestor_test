@@ -53,7 +53,6 @@ class PDFProcessor(ProcessingPipeline):
     def _register_ocr_engines(self) -> None:
         engines_to_register = []
 
-        # Try to register all available OCR engines
         ocr_engines = [
             ('ocr.aws_textract', 'create_aws_textract_engine'),
             ('ocr.azure', 'create_azure_ocr_engine'),
